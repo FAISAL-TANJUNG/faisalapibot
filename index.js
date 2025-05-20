@@ -1,13 +1,12 @@
-// kpop-api.js
-import express from "express";
-import bodyParser from "body-parser";
-import dotenv from "dotenv";
-import Groq from "groq-sdk";
+const express = require("express");
+const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
+const Groq = require("groq-sdk");
 
 dotenv.config();
 
 const app = express();
-const port = 3000;
+const port = 45623;
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
