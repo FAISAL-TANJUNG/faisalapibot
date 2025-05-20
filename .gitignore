@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment file
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: VSCode config
+.vscode/
+
+# Build artifacts
+dist/
+build/
+
+# Optional: coverage reports
+coverage/
+
+# Optional: dotenv backup files
+.env.*
