@@ -44,7 +44,7 @@ Jadi, yuk mulai ngobrol! Apa yang mau kamu tanyain atau ceritain tentang K-Pop h
 
     const completion = await groq.chat.completions.create({
       messages,
-      model: "llama-3-3-70b-versatile",
+      model: "llama-3.3-70b-versatile",
     });
 
     const answer = completion.choices[0]?.message?.content || "Maaf yaa, aku belum bisa jawab itu 😅";
